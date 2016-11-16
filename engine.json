@@ -6,7 +6,7 @@
   "datasource": {
     "params" : {
       "name": "sample-handmade-data.txt",
-      "appName": "handmade",
+      "appName": "pinion",
       "eventNames": ["purchase", "view"]
     }
   },
@@ -23,7 +23,7 @@
       "comment": "simplest setup where all values are default, popularity based backfill, must add eventsNames",
       "name": "ur",
       "params": {
-        "appName": "handmade",
+        "appName": "pinion",
         "indexName": "urindex",
         "typeName": "items",
         "comment": "must have data for the first event or the model will not build, other events are optional",
